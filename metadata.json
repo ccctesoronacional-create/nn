@@ -1,0 +1,6 @@
+{
+  "name": "CCCTN - Caballo Criollo Colombiano Tesoro Nacional",
+  "description": "La vitrina digital más grande del Caballo Criollo Colombiano. Comunidad de +1.2M apasionados, paquetes para criaderos, pauta de marcas y media kit oficial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

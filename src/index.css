@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-brand-yellow: #F2CD28;
+    --color-brand-blue: #283B7B;
+    --color-brand-red: #E81C24;
+    --color-brand-black: #0B0B0B;
+    --color-brand-cream: #F6F3EC;
+    --color-brand-navy: #1B2858;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #0B0B0B;
+    color: #F6F3EC;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+}
+
+/* Custom typography classes */
+.font-anton {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+::-webkit-scrollbar-thumb {
+  background: #283B7B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F2CD28;
+}
+
+/* Focus outline for accessibility */
+*:focus-visible {
+  outline: 2px solid #F2CD28;
+  outline-offset: 2px;
+}
+
+/* Minimum 48px height for touch targets */
+.btn-touch {
+  min-height: 48px;
+}
+
+/* Card hover glow */
+.card-hover-gold {
+  transition: all 0.3s ease;
+}
+.card-hover-gold:hover {
+  border-color: rgba(242, 205, 40, 0.6);
+  box-shadow: 0 10px 30px -10px rgba(242, 205, 40, 0.2);
+}
